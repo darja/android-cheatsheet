@@ -114,3 +114,7 @@ Applications for Handlers:
 
 * Scheduling operations nearby future (`postDelayed`)
 * Requesting an operation to be performed in different thread (`runOnUiThread`, `post`)
+
+## ViewModel
+
+`ViewModel` is a part of Android Arch library. It is designed to store and manage UI-related data in a lifecycle conscious way. It can survive when activities and fragments are recreated (e.g on screen rotation or application minimization).
