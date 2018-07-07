@@ -4,11 +4,11 @@
 
 Object is a base class for all others. It has following methods:
 
-* `hashCode` -- returns a hash value for the object. This value are used for finding the object in collections.
-* `equals` -- returns if the object is equal to the argument object. Equal objects should have equal hash codes
-* `toString` -- returns a string representation of an object. Usually is used in logging
-* `wait`/`notify` -- implementing thread lock mechanism
-* `finalize` -- called by garbage collector when the object is about to be collected
+* `hashCode` — returns a hash value for the object. This value are used for finding the object in collections.
+* `equals` — returns if the object is equal to the argument object. Equal objects should have equal hash codes
+* `toString` — returns a string representation of an object. Usually is used in logging
+* `wait`/`notify` — implementing thread lock mechanism
+* `finalize` — called by garbage collector when the object is about to be collected
 
 ## Collections
 
@@ -26,9 +26,9 @@ arr[2] = 199
 
 A linked list is also a set of items, but it is organized in different way. Every item contains a value and links to the next and/or previous elements. Types of linked lists:
 
-* Stack -- Last-In-First-Out (LIFO) list. New element is added to the head of the list.
-* Queue -- First-In-First-Out (FIFO) list. New element is addede to the end of the list.
-* Deque -- double-linked list, can work both ways.
+* Stack — Last-In-First-Out (LIFO) list. New element is added to the head of the list.
+* Queue — First-In-First-Out (FIFO) list. New element is addede to the end of the list.
+* Deque — double-linked list, can work both ways.
 
 #### Lists in Java
 
@@ -62,11 +62,11 @@ Map is a structure, that contains keys and one value for every key. The special 
 
 Java implementations for maps:
 
-* `HashMap` -- basic implementation
-* `Hashtable` -- synchronized version, doesn't allow nulls
-* `LinkedHashMap` -- same as `HashMap`, but also maintains keys order
-* `TreeMap` -- keys are stored in red-black tree
-* `ConcurrentHashMap` -- thread-safe hash map
+* `HashMap` — basic implementation
+* `Hashtable` — synchronized version, doesn't allow nulls
+* `LinkedHashMap` — same as `HashMap`, but also maintains keys order
+* `TreeMap` — keys are stored in red-black tree
+* `ConcurrentHashMap` — thread-safe hash map
 
 #### Sets
 
@@ -74,7 +74,7 @@ Set is a collection that guarantees that every element is stored only once.
 
 Java implementations for sets:
 
-* `HashSet` -- based on `HashMap`
-* `TreeSet` -- based on `TreeMap`
+* `HashSet` — based on `HashMap`
+* `TreeSet` — based on `TreeMap`
 
 #### Heap
