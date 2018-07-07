@@ -78,3 +78,7 @@ Java implementations for sets:
 * `TreeSet` — based on `TreeMap`
 
 #### Heap
+
+**TODO: Move to CS section**
+
+Heap is a tree-based data structure where root elements are greater or equal (max-heap) or smaller or equal (min-heap) than child elements.
