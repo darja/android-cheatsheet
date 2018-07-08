@@ -49,6 +49,8 @@ Fragment lifecycle:
 * `onDestroy`
 * `onDetach`
 
+Fragments were introduced in Android 3 (Honeycomb), that was designed by tablets. Originally they were designed to help making UI for tablets more efficient. Tablets have bigger screens than phones, so we can place more pieces of UI. Classic example is master-detail flow: on a phone items list and details are shown separately, but on a tablet we have enough space for both.
+
 ## Service
 
 Services are designed to perform long-running operations without user interaction. Services has higher priority than activities. Service runs in the caller thread. If a caller is destroyed, service continues working.
