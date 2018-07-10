@@ -9,5 +9,6 @@
     * [General](android/general.md)
     * [UI](android/ui.md)
     * [Multithreading](android/multithreading.md)
+    * [What's New](android/new.md)
 * General
     * [Likes and Dislikes](general/likes_dislikes.md)
