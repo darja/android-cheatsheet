@@ -5,10 +5,14 @@
 ### Likes
 
 * Extension methods
-* `forEach` method
 * `when` operator
 * Getters/setters
-* Placeholder names
+* Default placeholder name _
+* ? and ?:
+* Inline formatting "Name: $name"
+* `var/val` is much more convenient then actual type names
+* One line functions like `fun getSomething() = something`
+* Built-in helper functions like `sumBy`, `firstOrNull`, etc
 
 ### Dislikes
 
